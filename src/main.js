@@ -49,7 +49,7 @@ const store = new Vuex.Store({
 
 
 import VueNativeSock from 'vue-native-websocket'
-Vue.use(VueNativeSock, 'ws://172.29.41.16:8888/frames', {
+Vue.use(VueNativeSock, 'ws://172.28.142.145:8888/frames', {
   format: 'json',
   store: store,
   reconnection: true, // (Boolean) whether to reconnect automatically (false)
